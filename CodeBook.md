@@ -55,9 +55,9 @@ Removing *_* from column names:
 - For example: 'subject_id' renamed to 'subject'
 
 **2.2 List of Variables:**
-1- subject: This is a (char) variable, which contains each individual that participated in the experiment. It goes from 1 to 30
-2- activity: This is a (char) variable, which denotes the activities conducted by each individual (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying)
-3- metric: This is a (char) variable, indicating whether the metric is a 'mean' or a 'std' for each of the variables
+- subject: This is a (char) variable, which contains each individual that participated in the experiment. It goes from 1 to 30
+- activity: This is a (char) variable, which denotes the activities conducted by each individual (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying)
+- metric: This is a (char) variable, indicating whether the metric is a 'mean' or a 'std' for each of the variables
 4- TimeBodyAccel-X: Time body accelerator signal for axial X
 5- TimeBodyAccel-Y: Time body accelerator signal for axial Y
 6- TimeBodyAccel-Z: Time body accelerator signal for axial Z
