@@ -55,42 +55,42 @@ Removing *_* from column names:
 - For example: 'subject_id' renamed to 'subject'
 
 **2.2 List of Variables:**
-(1) subject: This is a (char) variable, which contains each individual that participated in the experiment. It goes from 1 to 30
-(2) activity: This is a (char) variable, which denotes the activities conducted by each individual (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying)
-(3) metric: This is a (char) variable, indicating whether the metric is a 'mean' or a 'std' for each of the variables
-(4) TimeBodyAccel-X: Time body accelerator signal for axial X
-(5) TimeBodyAccel-Y: Time body accelerator signal for axial Y
-(6) TimeBodyAccel-Z: Time body accelerator signal for axial Z
-(7) TimeGravityAccel-X: Time gravity accelerator signal for axial X
-(8) TimeGravityAccel-Y: Time gravity accelerator signal for axial Y
-(9) TimeGravityAccel-Z: Time gravity accelerator signal for axial Z
-(10) TimeBodyAccelJerk-X: Time body accelerator jerk signal for axial X
-(11) TimeBodyAccelJerk-Y: Time body accelerator jerk signal for axial Y
-(12) TimeBodyAccelJerk-Z: Time body accelerator jerk signal for axial Z
-(13) TimeBodyGyro-X: Time body gyro signal for axial X
-(14) TimeBodyGyro-Y: Time body gyro signal for axial Y
-(15) TimeBodyGyro-Z: Time body gyro signal for axial Z
-(16) TimeBodyGyroJerk-X: Time body gyro jerk signal for axial X
-(17) TimeBodyGyroJerk-Y: Time body gyro jerk signal for axial Y
-(18) TimeBodyGyroJerk-Z: Time body gyro jerk signal for axial Z
-(19) TimeBodyAccelMagnit: Time body accelerator signal magnitude
-(20) TimeGravityAccelMagnit: Time gravity accelerator signal magnitude
-(21) TimeBodyAccelJerkMagnit: Time body accelerator jerk signal magnitude
-(22) TimeBodyGyroMagnit: Time body gyro magnitude
-(23) TimeBodyGyroJerkMagnit: Time body gyro jerk magnitude
-(24) FreqBodyAccel-X: Frequency body accelerator signal for axial X
-(25) FreqBodyAccel-Y: Frequency body accelerator signal for axial Y
-(26) FreqBodyAccel-Z: Frequency body accelerator signal for axial Z
-(27) FreqBodyAccelJerk-X: Frequency body accelerator jerk signal for axial X
-(28) FreqBodyAccelJerk-Y: Frequency body accelerator jerk signal for axial Y
-(29) FreqBodyAccelJerk-Z: Frequency body accelerator jerk signal for axial X
-(30) FreqBodyGyro-X: Frequency body gyro signal for axial X
-(31) FreqBodyGyro-Y: Frequency body gyro signal for axial Y
-(32) FreqBodyGyro-Z: Frequency body gyro signal for axial Z
-(33) FreqBodyAccelMagnit: Frequency body accelerator signal magnitude
-(34) FreqBodyAccelJerkMagnit: Frequency body accelerator jerk signal magnitude
-(35) FreqBodyBodyGyroMagnit: Frequency body gyro signal magnitude
-(36) FreqBodyBodyGyroJerkMagnit: Frequency body body gyro jerk signal magnitude
+1- subject: This is a (char) variable, which contains each individual that participated in the experiment. It goes from 1 to 30
+2- activity: This is a (char) variable, which denotes the activities conducted by each individual (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying)
+3- metric: This is a (char) variable, indicating whether the metric is a 'mean' or a 'std' for each of the variables
+4- TimeBodyAccel-X: Time body accelerator signal for axial X
+5- TimeBodyAccel-Y: Time body accelerator signal for axial Y
+6- TimeBodyAccel-Z: Time body accelerator signal for axial Z
+7- TimeGravityAccel-X: Time gravity accelerator signal for axial X
+8- TimeGravityAccel-Y: Time gravity accelerator signal for axial Y
+9- TimeGravityAccel-Z: Time gravity accelerator signal for axial Z
+10- TimeBodyAccelJerk-X: Time body accelerator jerk signal for axial X
+11- TimeBodyAccelJerk-Y: Time body accelerator jerk signal for axial Y
+12- TimeBodyAccelJerk-Z: Time body accelerator jerk signal for axial Z
+13- TimeBodyGyro-X: Time body gyro signal for axial X
+14- TimeBodyGyro-Y: Time body gyro signal for axial Y
+15- TimeBodyGyro-Z: Time body gyro signal for axial Z
+16- TimeBodyGyroJerk-X: Time body gyro jerk signal for axial X
+17- TimeBodyGyroJerk-Y: Time body gyro jerk signal for axial Y
+18- TimeBodyGyroJerk-Z: Time body gyro jerk signal for axial Z
+19- TimeBodyAccelMagnit: Time body accelerator signal magnitude
+20- TimeGravityAccelMagnit: Time gravity accelerator signal magnitude
+21- TimeBodyAccelJerkMagnit: Time body accelerator jerk signal magnitude
+22- TimeBodyGyroMagnit: Time body gyro magnitude
+23- TimeBodyGyroJerkMagnit: Time body gyro jerk magnitude
+24- FreqBodyAccel-X: Frequency body accelerator signal for axial X
+25- FreqBodyAccel-Y: Frequency body accelerator signal for axial Y
+26- FreqBodyAccel-Z: Frequency body accelerator signal for axial Z
+27- FreqBodyAccelJerk-X: Frequency body accelerator jerk signal for axial X
+28- FreqBodyAccelJerk-Y: Frequency body accelerator jerk signal for axial Y
+29- FreqBodyAccelJerk-Z: Frequency body accelerator jerk signal for axial X
+30- FreqBodyGyro-X: Frequency body gyro signal for axial X
+31- FreqBodyGyro-Y: Frequency body gyro signal for axial Y
+32- FreqBodyGyro-Z: Frequency body gyro signal for axial Z
+33- FreqBodyAccelMagnit: Frequency body accelerator signal magnitude
+34- FreqBodyAccelJerkMagnit: Frequency body accelerator jerk signal magnitude
+35- FreqBodyBodyGyroMagnit: Frequency body gyro signal magnitude
+36- FreqBodyBodyGyroJerkMagnit: Frequency body body gyro jerk signal magnitude
 
 
 
