@@ -115,6 +115,8 @@ df2_grouped <- group_by(df2_summary,subject,activity,metric) # group
 df2_final <- summarize_all(df2_grouped, mean)
 head(df2_final) #check rows of final dataset
 
+write.table(df2_final,file = "Activity_SamsungII.txt",row.names=FALSE)
+
 
 
 
