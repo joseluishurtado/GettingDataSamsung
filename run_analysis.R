@@ -1,11 +1,24 @@
 # You should create one R script called run_analysis.R that does the following.
 
-#Before starting script, setting up working directory and libraries
-setwd("c://users//jh126//coursera//UCI HAR Dataset//")
+setwd("c:\\users\\jh126\\")
 library(plyr)
 library(dplyr)
 library(tibble)
 library(tidyr)
+
+# Get the file and unzip it
+datazip <- "samsungII.zip"
+if (!file.exists(datazip)){
+  fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+  download.file(fileURL, datazip)
+}  
+if (!file.exists("UCI HAR Dataset")) { 
+  unzip(datazip) 
+}
+
+#Adjust the working directory
+setwd("C:\\users\\jh126\\UCI HAR Dataset\\")
+
 
 # (1) Merges the training and the test sets to create one data set.
 
